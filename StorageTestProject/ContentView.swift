@@ -32,7 +32,6 @@ struct ContentView: View {
                     .textFieldStyle(.roundedBorder)
                 
                 Button {
-                    
                     Auth.auth().signIn(withEmail: email, password: password ){ one,two in
                         
                         if two == nil {
